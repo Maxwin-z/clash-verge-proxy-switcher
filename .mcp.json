@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "clash-verge": {
+      "command": "node",
+      "args": ["/Users/maxwin/workspace/clash-verge-proxy-switcher/build/index.js"]
+    }
+  }
+}

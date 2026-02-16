@@ -1,0 +1,19 @@
+{
+  "name": "clash-verge-proxy-switcher",
+  "version": "1.0.0",
+  "description": "MCP Server for managing Clash Verge proxy nodes via mihomo API",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}
